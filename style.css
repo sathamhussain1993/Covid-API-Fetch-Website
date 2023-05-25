@@ -1,0 +1,36 @@
+#cardContainer {
+    margin-top: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+  .card:hover {
+    background-color: blue;
+    color: white;
+  }
+  .curved-card {
+    border-radius: 10px;
+  }
+  .color-1 {
+    background-color: rgb(255, 216, 0); /* Light Yellow */
+  }
+  .color-2 {
+    background-color: rgb(40, 167, 69); /* Dark Green */
+  }
+  .color-3 {
+    background-color: rgb(0, 0, 128); /* Navy Blue */
+  }
+  .color-4 {
+    background-color: rgb(238, 130, 238); /* Violet */
+  }
+  .color-5 {
+    background-color: rgb(128, 0, 128); /* Purple */
+  }
+  .color-6 {
+    background-color: rgb(255, 165, 0); /* Orange */
+  }
+  

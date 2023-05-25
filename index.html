@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Covid 19 Statistics</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* CSS styles go here */
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Covid 19 Statistics</a>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" id="searchInput" placeholder="Search Date" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="button" onclick="searchData()">Search</button>
+      </form>
+    </nav>
+  </header>
+
+  <main class="container mt-4">
+    <div class="row">
+      <div class="card curved-card col-md-4 mb-4 color-1" id="totalConfirmedCard">
+        <div class="card-body">
+          <h5 class="card-title">Total Confirmed Cases</h5>
+          <p class="card-text" id="totalConfirmedValue">Loading...</p>
+        </div>
+      </div>
+      <div class="card curved-card col-md-4 mb-4 color-2" id="totalRecoveredCard">
+        <div class="card-body">
+          <h5 class="card-title">Total Recovered Cases</h5>
+          <p class="card-text" id="totalRecoveredValue">Loading...</p>
+        </div>
+      </div>
+      <div class="card curved-card col-md-4 mb-4 color-3" id="totalDeceasedCard">
+        <div class="card-body">
+          <h5 class="card-title">Total Deceased Cases</h5>
+          <p class="card-text" id="totalDeceasedValue">Loading...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4" id="cardContainer"></div>
+  </main>
+
+  <footer class="bg-light text-center py-3">
+    <p>All rights reserved. &copy; 2023</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // JavaScript code goes here
+  </script>
+</body>
+</html>
